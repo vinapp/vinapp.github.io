@@ -9,6 +9,7 @@ related_posts: false
 toc:
   beginning: true
 ---
+
 **Voice based Multi class image generation using Stable Diffusion**
 
 **(1) Problem Statement:**
