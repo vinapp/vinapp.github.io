@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2023 | Vinod Appajanna</title>
+    <title>Multi class image generation using Stable Diffusion | Vinod Appajanna</title>
     <meta name="author" content="Vinod  Appajanna">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Voice based Multi class image generation using Stable Diffusion">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://vinapp.github.io/blog/2023/">
+    <link rel="canonical" href="https://vinapp.github.io/blog/2023/multi-class-image-generation-stablediffusion/">
 
     <!-- Dark Mode -->
     
@@ -108,70 +107,133 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2023 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">Multi class image generation using Stable Diffusion</h1>
+    <p class="post-meta">May 31, 2023</p>
+    <p class="post-tags">
+      <a href="//blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="//blog/category/ai">
+          <i class="fas fa-tag fa-sm"></i> ai</a>  
+          <a href="//blog/category/ml">
+          <i class="fas fa-tag fa-sm"></i> ml</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">May 31, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/multi-class-image-generation-stablediffusion/">Multi class image generation using Stable Diffusion</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 12, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/custom-blockquotes/">a post with custom blockquotes</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 25, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 25, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/audios/">a post with audios</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 24, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/videos/">a post with videos</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/tables/">displaying beautiful tables with Bootstrap Tables</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/table-of-contents/">a post with table of contents</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="table-of-contents">
+      <ul id="toc" class="section-nav">
+</ul>
+    </div>
+    <hr>
+    
+    <div id="markdown-content">
+      <p><strong>Voice based Multi class image generation using Stable Diffusion</strong></p>
+
+<p><strong>(1) Problem Statement:</strong></p>
+
+<p>We have seen the generative models like Diffusion Model for some time. With the release of Stable Diffusion’s (released recently as early as August 2022) the code and the model weights have been released publicly allowing users to have more control over the topic picture and then controlling the diffusion model using text-based inputs, we can do a transfer learning for a subject &amp; an identifier with just few images. Also, we see that there are only few articles on these and especially only covering a single class transfer learning. So, taking advantage of this we see an option of training (our own set of images) with different classes (with our own identifiers) and clubbing multiple classes. So with this we can issue a single sentence/text which covers all the classes/identifiers and generate images based our custom image set. Also, extending text-to-image to voice-to-text-to-image helps.</p>
+
+<p><strong>(2) Task:</strong></p>
+
+<p>(a) For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier’s.
+(b) Add a support to speech to text option on top of text to image option
+(c) Find the group of classes/subject that we want to train and test the same with different text’s (sentences). Testing could be manual or based on the labelled data.</p>
+
+<p><strong>(3) Why is it interesting?</strong></p>
+
+<p>Interesting because imagination becomes real in the image. One of the powerful use case would be in slide preparation or storyboard creation wherein we can generate images on our own set of images (grouped into different class) that are trained via transfer learning. This would save time and also have multiple imaginative image generation options. Also, here we have some control over the image generation since its operating on our own set of images.</p>
+
+<p>Also, although there are articles/blogs on stable diffusion (past 2 months) on training individual class (CAT/DOG et) but we haven’t seen any articles (so far) on how we can use set/group of images and how we can iteratively create multiple classes one of top of each other along with publicly available dream booth diffusion model data. So, this could be a nice candidate for publishing a blog that would be very useful to people.</p>
+
+<p>Eg:</p>
+
+<p><strong>photo of &lt;custom-identifier&gt; &lt;class-name&gt;</strong></p>
+
+<ol>
+  <li>photo of &lt;xyz&gt; &lt;temple&gt; —&gt; Single class</li>
+  <li>photo of &lt;kar&gt; &lt;forest&gt; —&gt; Single class</li>
+  <li>photo of &lt;xyz&gt; &lt;temple&gt; in &lt;kar&gt; &lt;forest&gt; and sunlight —&gt; Mixing multiple custom classes</li>
+</ol>
+
+<p>This one especially touches all/most of ML aspects like deep learning, un-supervised, synthesized data, labelled data, text summarization, voice to text, text to image etc. This one will serve as a nice learning experience for all of us.</p>
+
+<p>Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful… For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it’s very difficult to get the images of our own choice and that too for say 100’s of articles. So in that case this is very useful and we don’t have bother out <a href="https://huggingface.co/CompVis/stable-diffusion" rel="external nofollow noopener" target="_blank">licensing</a> issues as well unless it’s not misused.</p>
+
+<p><strong>(4) Data</strong></p>
+
+<ul>
+  <li>To start with we require only few sets of images for transfer learning</li>
+  <li>Verifying the result is a bit challenging but we could leverage the labelled data.</li>
+</ul>
+
+<p><strong>(5) Methods to experiment</strong></p>
+
+<ul>
+  <li>For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</li>
+</ul>
+
+<p>Example images generated from stable diffusion model:</p>
+
+<p><strong>(6) Evaluate your results</strong></p>
+
+<p>Aspects</p>
+
+<ol>
+  <li>
+    <p>Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.</p>
+  </li>
+  <li>
+    <p>Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.</p>
+  </li>
+</ol>
+
+<p>Planning to use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
+
+<p><strong>(7) Quantitative Results:</strong></p>
+
+<p><strong>NA/?</strong></p>
+
+<p><strong>(8) Quantitatively Analysis:</strong></p>
+
+<p><strong>NA/?</strong></p>
+
+<p><strong>(9) What is the hypothesis regarding the results compared to baselines</strong></p>
+
+<ol>
+  <li>
+    <p>It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.</p>
+  </li>
+  <li>
+    <p>Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.</p>
+  </li>
+</ol>
+
+<p><strong>(10) References:</strong></p>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Stable\_Diffusion" rel="external nofollow noopener" target="_blank">Stable Diffusion</a></li>
+  <li><a href="https://arxiv.org/pdf/2208.12242.pdf" rel="external nofollow noopener" target="_blank">Dream booth Diffusion</a></li>
+  <li><a href="[https://en.wikipedia.org/wiki/Diffusion\_model](https://en.wikipedia.org/wiki/Diffusion_model)">Diffusion Model</a></li>
+  <li><a href="https://huggingface.co/CompVis/stable-diffusion" rel="external nofollow noopener" target="_blank">Stable Diffusion Model</a></li>
+</ul>
+
+<p><strong>(11) Related Works Article:</strong></p>
+
+<ul>
+  <li><a href="https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/" rel="external nofollow noopener" target="_blank">Train Stable Diffusion Model</a></li>
+  <li><a href="https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/" rel="external nofollow noopener" target="_blank">Fine Tune Stable Diffusion Model</a></li>
+</ul>
+
     </div>
   </article>
-
 </div>
 
       
