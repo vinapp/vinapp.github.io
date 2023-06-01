@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://vinapp.github.io/blog/2020/twitter/</loc>
-<lastmod>2020-09-28T15:12:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://vinapp.github.io/blog/2021/diagrams/</loc>
 <lastmod>2021-07-04T17:39:00+00:00</lastmod>
 </url>
@@ -73,9 +69,6 @@
 <loc>https://vinapp.github.io/teaching/</loc>
 </url>
 <url>
-<loc>https://vinapp.github.io/blog/tag/formatting/</loc>
-</url>
-<url>
 <loc>https://vinapp.github.io/blog/tag/including/</loc>
 </url>
 <url>
@@ -104,9 +97,6 @@
 </url>
 <url>
 <loc>https://vinapp.github.io/blog/category/ml/</loc>
-</url>
-<url>
-<loc>https://vinapp.github.io/blog/2020/</loc>
 </url>
 <url>
 <loc>https://vinapp.github.io/blog/2021/</loc>
