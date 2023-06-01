@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.E Computer Science and Engineering\n
+subtitle: B.E Computer Science and Engineering <br/>
           M.S Software Systems, BITS Pilani
 
 profile:
