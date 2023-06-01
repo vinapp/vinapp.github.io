@@ -156,8 +156,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: mobilefirstplatform.ibmcloud.com
-    rss_url: https://medium.com/@al-folio/feed
+    - name: "Configuring MobileFirst Foundation 8.0 on Bluemix with on-prem custom registry for application authentication1"
+      url: "https://mobilefirstplatform.ibmcloud.com/blog/2016/08/05/mobilefirst-foundation-on-bluemix-custom-on-prem-user-registry-authentication/"
+    - name: "Debugging a MobileFirst Sliverlight and Windows 8.1 Universal Apps"
+      url: "https://mobilefirstplatform.ibmcloud.com/blog/2015/08/14/debugging-a-mfp-sliverlight-and-windows-8-1-universal-apps/"
 
 extra:
   external_sources:
