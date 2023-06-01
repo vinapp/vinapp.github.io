@@ -3,6 +3,7 @@ layout: post
 title: Multi class image generation using Stable Diffusion
 date: 2023-05-31 06:00:00-0400
 description: Voice based Multi class image generation using Stable Diffusion
+tags: ai ml
 categories: ai ml
 giscus_comments: false
 related_posts: false
