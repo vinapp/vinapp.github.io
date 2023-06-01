@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://vinapp.github.io/blog/2023/sidebar-table-of-contents/</loc>
-<lastmod>2023-04-25T14:14:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://vinapp.github.io/blog/2023/custom-blockquotes/</loc>
 <lastmod>2023-05-12T19:53:00+00:00</lastmod>
 </url>
@@ -42,12 +38,6 @@
 </url>
 <url>
 <loc>https://vinapp.github.io/blog/category/sample-posts/</loc>
-</url>
-<url>
-<loc>https://vinapp.github.io/blog/category/toc/</loc>
-</url>
-<url>
-<loc>https://vinapp.github.io/blog/category/sidebar/</loc>
 </url>
 <url>
 <loc>https://vinapp.github.io/blog/category/blockquotes/</loc>
