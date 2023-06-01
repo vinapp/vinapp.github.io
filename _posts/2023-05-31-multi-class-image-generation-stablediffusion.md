@@ -10,19 +10,19 @@ toc:
   beginning: true
 ---
 
-**Voice based Multi class image generation using Stable Diffusion**
+## Voice based Multi class image generation using Stable Diffusion
 
-**(1) Problem Statement:**
+### (1) Problem Statement:
 
 We have seen the generative models like Diffusion Model for some time. With the release of Stable Diffusion's (released recently as early as August 2022) the code and the model weights have been released publicly allowing users to have more control over the topic picture and then controlling the diffusion model using text-based inputs, we can do a transfer learning for a subject & an identifier with just few images. Also, we see that there are only few articles on these and especially only covering a single class transfer learning. So, taking advantage of this we see an option of training (our own set of images) with different classes (with our own identifiers) and clubbing multiple classes. So with this we can issue a single sentence/text which covers all the classes/identifiers and generate images based our custom image set. Also, extending text-to-image to voice-to-text-to-image helps.
 
-**(2) Task:**
+### (2) Task:
 
-(a) For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier's.
-(b) Add a support to speech to text option on top of text to image option
-(c) Find the group of classes/subject that we want to train and test the same with different text's (sentences). Testing could be manual or based on the labelled data.
+  - For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier's
+  - Add a support to speech to text option on top of text to image option
+  - Find the group of classes/subject that we want to train and test the same with different text's (sentences). Testing could be manual or based on the labelled data.
 
-**(3) Why is it interesting?**
+### (3) Why is it interesting ?
 
 Interesting because imagination becomes real in the image. One of the powerful use case would be in slide preparation or storyboard creation wherein we can generate images on our own set of images (grouped into different class) that are trained via transfer learning. This would save time and also have multiple imaginative image generation options. Also, here we have some control over the image generation since its operating on our own set of images.
 
@@ -32,33 +32,32 @@ Eg:
 
 **photo of \<custom-identifier\> \<class-name\>**
 
-1. photo of \<xyz\> \<temple\> ---\> Single class
-2. photo of \<kar\> \<forest\> ---\> Single class
-3. photo of \<xyz\> \<temple\> in \<kar\> \<forest\> and sunlight ---\> Mixing multiple custom classes
+- photo of \<xyz\> \<temple\> ---\> Single class
+- photo of \<kar\> \<forest\> ---\> Single class
+- photo of \<xyz\> \<temple\> in \<kar\> \<forest\> and sunlight ---\> Mixing multiple custom classes
 
 This one especially touches all/most of ML aspects like deep learning, un-supervised, synthesized data, labelled data, text summarization, voice to text, text to image etc. This one will serve as a nice learning experience for all of us.
 
 Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful... For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it's very difficult to get the images of our own choice and that too for say 100's of articles. So in that case this is very useful and we don't have bother out [licensing](https://huggingface.co/CompVis/stable-diffusion) issues as well unless it's not misused.
 
-**(4) Data**
+### (4) Data
 
-- To start with we require only few sets of images for transfer learning
-- Verifying the result is a bit challenging but we could leverage the labelled data.
+  - To start with we require only few sets of images for transfer learning
+  - Verifying the result is a bit challenging but we could leverage the labelled data.
 
-**(5) Methods to experiment**
+### (5) Methods to experiment
 
-- For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
+  - For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
 
 Example images generated from stable diffusion model:
 
 
-**(6) Evaluate your results**
+### (6) Evaluate your results
 
-Aspects
+**Aspects**
 
-1. Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.
-
-1. Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.
+  - Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.
+  - Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.
 
 Planning to use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.
 
@@ -72,9 +71,8 @@ Planning to use the labelled trained images to match against the generated image
 
 **(9) What is the hypothesis regarding the results compared to baselines**
 
-1. It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.
-
-1. Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.
+  - It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.
+  - Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.
 
 **(10) References:**
 
