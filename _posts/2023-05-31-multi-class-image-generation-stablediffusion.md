@@ -50,7 +50,11 @@ Example Usecase: Think of having a plugin (to powerpoint/google slides) that can
   - For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
 
 Example images generated from stable diffusion model:
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 ### (6) Evaluate your results
 
