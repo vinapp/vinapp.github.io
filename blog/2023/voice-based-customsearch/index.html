@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ml | Vinod Appajanna</title>
+    <title>Voice Based Custom Search | Vinod Appajanna</title>
     <meta name="author" content="Vinod  Appajanna">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Voice Based Custom Search">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://vinapp.github.io/blog/category/ml/">
+    <link rel="canonical" href="https://vinapp.github.io/blog/2023/voice-based-customsearch/">
 
     <!-- Dark Mode -->
     
@@ -108,35 +107,146 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> ml </h1>
-    <p class="post-description"> an archive of posts in this category </p>
+    <h1 class="post-title">Voice Based Custom Search</h1>
+    <p class="post-meta">June 1, 2023</p>
+    <p class="post-tags">
+      <a href="//blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="//blog/category/ai">
+          <i class="fas fa-tag fa-sm"></i> ai</a>  
+          <a href="//blog/category/ml">
+          <i class="fas fa-tag fa-sm"></i> ml</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jun 1, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/voice-based-customsearch/">Voice Based Custom Search</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 31, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/multi-class-image-generation-stablediffusion/">Multi class image generation using Stable Diffusion</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="table-of-contents">
+      <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1">
+<a href="#abstract">Abstract</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#motivation">Motivation</a></li>
+<li class="toc-entry toc-h2"><a href="#high-level-flow">High Level Flow</a></li>
+<li class="toc-entry toc-h2"><a href="#asrtts--webspeech-api--backend-flow">ASR/TTS – WebSpeech API – Backend flow</a></li>
+<li class="toc-entry toc-h2"><a href="#apis-search--web-speech">API’s (Search &amp; Web Speech)</a></li>
+<li class="toc-entry toc-h2"><a href="#search-engine---configuration">Search Engine - Configuration</a></li>
+<li class="toc-entry toc-h2"><a href="#search-options">Search Options</a></li>
+<li class="toc-entry toc-h2"><a href="#reference-links">Reference links</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#source-code">Source Code</a></li>
+</ul>
+    </div>
+    <hr>
+    
+    <div id="markdown-content">
+      <h1 id="abstract">Abstract</h1>
+<p>A Hybrid Ionic mobile app (<a href="https://github.com/vinapp/voice-based-customsearch" rel="external nofollow noopener" target="_blank">voice-based-customsearch</a>) that accepts Indic voice-based commands to search the Indic (domain) scoped data. The Indic domain data includes data such as music/tourism/theertha-stala/spiritual/yoga/etc. Here the voice to text conversion happens via JS WebSpeech API’s. Also, the search engine includes custom Google search engine, Wikipedia search engine or similar one (one or more of these). The Google custom Search helps in creating our own search engine for a choosen topic collected from a group of websites of our choosing.</p>
+
+<h2 id="motivation">Motivation</h2>
+<ul>
+  <li>Explore the client and service-side aspects of voice-to-text &amp; tts.</li>
+  <li>Investigate existing publicly available search engines or APIs for querying domain-specific public data, rather than building our own.</li>
+  <li>Extend the search to include morphological analysis and generation for Indian languages to improve the search engine results. The output of the search engine depends on the input words. If a word is provided in an inflected form and is not present in the search engine’s lexicon, it will affect the search engine’s output.</li>
+  <li>One of the most common use case that people want is to be able to search for information by speaking a query into a device.</li>
+  <li>More/Extend (Own Pretrained ASR model + TTS + Q/A for websites)</li>
+</ul>
+
+<h2 id="high-level-flow">High Level Flow</h2>
+<p><img width="828" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/469a817a-00da-4691-b346-0422286b968d"></p>
+
+<h2 id="asrtts--webspeech-api--backend-flow">ASR/TTS – WebSpeech API – Backend flow</h2>
+<ul>
+  <li>Web Speech API is a web technology specification that is developed and maintained by the World Wide Web Consortium (W3C)</li>
+  <li>Web Speech API is a JavaScript API that allows developers to incorporate speech recognition and synthesis capabilities into web - applications.</li>
+  <li>The implementation of the Web Speech API can vary slightly between different browsers</li>
+  <li>Each browser implements the Web Speech API using its own underlying speech recognition and synthesis engines</li>
+  <li>Google Chrome’s speech recognition engine requires an active internet connection to work, as it relies on cloud-based speech recognition technology that processes the audio input on remote servers.</li>
+  <li>Speech recognition engines, such as the one used in Windows 10, can work offline to some extent by using pre-installed language models and recognition algorithm</li>
+</ul>
+
+<h2 id="apis-search--web-speech">API’s (Search &amp; Web Speech)</h2>
+<ul>
+  <li>Web Search API’s
+    <ul>
+      <li>https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition</li>
+      <li>https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis</li>
+    </ul>
+  </li>
+  <li>Tensor flow JS:
+    <ul>
+      <li>https://www.tensorflow.org/lite</li>
+      <li>https://github.com/tensorflow/tfjs</li>
+      <li>https://github.com/tulasiram58827/TTS_TFLite/tree/main/models</li>
+    </ul>
+  </li>
+  <li>Google Custom Search
+    <ul>
+      <li>https://developers.google.com/custom-search/v1/overview</li>
+    </ul>
+  </li>
+  <li>Wiki Search
+    <ul>
+      <li>https://www.mediawiki.org/wiki/API:Search</li>
+      <li>https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10</li>
+    </ul>
+  </li>
+  <li>Wiki Geo Search
+    <ul>
+      <li>https://www.mediawiki.org/wiki/API:Search</li>
+      <li>https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10</li>
+      <li>https://en.wikipedia.org/w/api.php?action=query&amp;prop=coordinates&amp;format=json&amp;titles=Tirupati</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>https://en.wikipedia.org/w/api.php?action=query&amp;list=geosearch&amp;format=json&amp;gscoord=10.87</td>
+              <td>78.68&amp;gsradius=10000&amp;gslimit=5</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li>Open Search API’s
+    <ul>
+      <li>https://www.mediawiki.org/wiki/API:Search</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="search-engine---configuration">Search Engine - Configuration</h2>
+<p><img width="910" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/693e4bfd-c40d-476d-aacb-c4b1afcc4135"></p>
+
+<h2 id="search-options">Search Options</h2>
+<p><img width="809" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/224853cf-6e16-40ed-b695-5c85de4eb7a1"></p>
+
+<h2 id="reference-links">Reference links</h2>
+<p>### Custom Google Search</p>
+<ul>
+  <li>https://developers.google.com/custom-search/v1/overview</li>
+  <li>https://programmablesearchengine.google.com/controlpanel/all
+  ### Maps</li>
+  <li>https://openlayers.org/</li>
+  <li>https://openlayers.org/en/latest/examples/</li>
+  <li>https://wiki.openstreetmap.org/wiki/Main_Page</li>
+</ul>
+
+<h1 id="source-code">Source Code</h1>
+<ul>
+  <li>https://github.com/vinapp/voice-based-customsearch</li>
+</ul>
+
     </div>
   </article>
-
 </div>
 
       
