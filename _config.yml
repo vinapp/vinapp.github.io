@@ -260,6 +260,7 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 # display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
+display_tags: ['ai', 'ml'] # these tags will be displayed on the front page of your blog
 
 
 # -----------------------------------------------------------------------------
