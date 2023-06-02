@@ -39,23 +39,16 @@ This one especially touches all/most of ML aspects like deep learning, un-superv
 Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful... For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it's very difficult to get the images of our own choice and that too for say 100's of articles. So in that case this is very useful and we don't have bother out [licensing](https://huggingface.co/CompVis/stable-diffusion) issues as well unless it's not misused.
 
 # Data
-
   - To start with we require only few sets of images for transfer learning
   - Verifying the result is a bit challenging but we could leverage the labelled data.
 
 # Methods to experiment
-
   - For transfer learning we an use different sets of custom images for different classes. In my case I have use images of Temple and few images for background. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
 
-Example images generated from stable diffusion model:
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+     Below is the example images that is generated from stable diffusion model:
+     <img width="944" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/00fff27c-2174-4b30-a474-7eecfe9c9b89">
 
 # Jupyter Notebook - Tryout out
-
 Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images & for the inference.
 
 **Steps**
@@ -84,13 +77,11 @@ We can use the labelled trained images to match against the generated images and
 
 
 # References
-
 - [Stable Diffusion](https://en.wikipedia.org/wiki/Stable\_Diffusion)
 - [Dream booth Diffusion](https://arxiv.org/pdf/2208.12242.pdf)
 - [Diffusion Model](https://en.wikipedia.org/wiki/Diffusion_model)
 - [Stable Diffusion Model](https://huggingface.co/CompVis/stable-diffusion)
 
   **Related Work/Articles**
-
   - [Train Stable Diffusion Model](https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/)
   - [Fine Tune Stable Diffusion Model](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/)
