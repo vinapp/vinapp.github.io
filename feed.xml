@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T11:15:44+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T11:26:19+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Voice Based Custom Search</title><link href="https://vinapp.github.io/blog/2023/voice-based-customsearch/" rel="alternate" type="text/html" title="Voice Based Custom Search" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2023/voice-based-customsearch</id><content type="html" xml:base="https://vinapp.github.io/blog/2023/voice-based-customsearch/"><![CDATA[<h1 id="abstract">Abstract</h1>
 <p>A Hybrid Ionic mobile app (<a href="https://github.com/vinapp/voice-based-customsearch">voice-based-customsearch</a>) that accepts Indic voice-based commands to search the Indic (domain) scoped data. The Indic domain data includes data such as music/tourism/theertha-stala/spiritual/yoga/etc. Here the voice to text conversion happens via JS WebSpeech API’s. Also, the search engine includes custom Google search engine, Wikipedia search engine or similar one (one or more of these). The Google custom Search helps in creating our own search engine for a choosen topic collected from a group of websites of our choosing.</p>
 
-<h2 id="motivation">Motivation</h2>
+<h1 id="motivation">Motivation</h1>
 <ul>
   <li>Explore the client and service-side aspects of voice-to-text &amp; tts.</li>
   <li>Investigate existing publicly available search engines or APIs for querying domain-specific public data, rather than building our own.</li>
@@ -11,10 +11,10 @@
   <li>More/Extend (Own Pretrained ASR model + TTS + Q/A for websites)</li>
 </ul>
 
-<h2 id="high-level-flow">High Level Flow</h2>
+<h1 id="high-level-flow">High Level Flow</h1>
 <p><img width="828" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/469a817a-00da-4691-b346-0422286b968d" /></p>
 
-<h2 id="asrtts--webspeech-api--backend-flow">ASR/TTS – WebSpeech API – Backend flow</h2>
+<h1 id="asrtts--webspeech-api--backend-flow">ASR/TTS – WebSpeech API – Backend flow</h1>
 <ul>
   <li>Web Speech API is a web technology specification that is developed and maintained by the World Wide Web Consortium (W3C)</li>
   <li>Web Speech API is a JavaScript API that allows developers to incorporate speech recognition and synthesis capabilities into web - applications.</li>
@@ -24,43 +24,44 @@
   <li>Speech recognition engines, such as the one used in Windows 10, can work offline to some extent by using pre-installed language models and recognition algorithm</li>
 </ul>
 
-<h2 id="apis-search--web-speech">API’s (Search &amp; Web Speech)</h2>
+<h1 id="apis-search--web-speech">API’s (Search &amp; Web Speech)</h1>
 <ul>
   <li>Web Search API’s
     <ul>
-      <li>https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition</li>
-      <li>https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis</li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition">https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis">https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis</a></li>
     </ul>
   </li>
   <li>Tensor flow JS:
     <ul>
-      <li>https://www.tensorflow.org/lite</li>
-      <li>https://github.com/tensorflow/tfjs</li>
-      <li>https://github.com/tulasiram58827/TTS_TFLite/tree/main/models</li>
+      <li><a href="https://www.tensorflow.org/lite">https://www.tensorflow.org/lite</a></li>
+      <li><a href="https://github.com/tensorflow/tfjs">https://github.com/tensorflow/tfjs</a></li>
+      <li><a href="https://github.com/tulasiram58827/TTS_TFLite/tree/main/models">https://github.com/tulasiram58827/TTS_TFLite/tree/main/models</a></li>
     </ul>
   </li>
   <li>Google Custom Search
     <ul>
-      <li>https://developers.google.com/custom-search/v1/overview</li>
+      <li><a href="https://developers.google.com/custom-search/v1/overview">https://developers.google.com/custom-search/v1/overview</a></li>
     </ul>
   </li>
   <li>Wiki Search
     <ul>
-      <li>https://www.mediawiki.org/wiki/API:Search</li>
-      <li>https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10</li>
+      <li><a href="https://www.mediawiki.org/wiki/API:Search">https://www.mediawiki.org/wiki/API:Search</a></li>
+      <li><a href="https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10">https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10</a></li>
     </ul>
   </li>
   <li>Wiki Geo Search
     <ul>
-      <li>https://www.mediawiki.org/wiki/API:Search</li>
-      <li>https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10</li>
-      <li>https://en.wikipedia.org/w/api.php?action=query&amp;prop=coordinates&amp;format=json&amp;titles=Tirupati</li>
+      <li><a href="https://www.mediawiki.org/wiki/API:Search">https://www.mediawiki.org/wiki/API:Search</a></li>
+      <li><a href="https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10">https://kn.wikipedia.org/w/api.php?action=query&amp;format=json&amp;list=search&amp;srsearch=ಶ್ರೀರಂಗ&amp;sroffset=10</a></li>
+      <li><a href="https://en.wikipedia.org/w/api.php?action=query&amp;prop=coordinates&amp;format=json&amp;titles=Tirupati">https://en.wikipedia.org/w/api.php?action=query&amp;prop=coordinates&amp;format=json&amp;titles=Tirupati</a></li>
       <li>
         <table>
           <tbody>
             <tr>
-              <td>https://en.wikipedia.org/w/api.php?action=query&amp;list=geosearch&amp;format=json&amp;gscoord=10.87</td>
-              <td>78.68&amp;gsradius=10000&amp;gslimit=5</td>
+              <td>[https://en.wikipedia.org/w/api.php?action=query&amp;list=geosearch&amp;format=json&amp;gscoord=10.87</td>
+              <td>78.68&amp;gsradius=10000&amp;gslimit=5](https://en.wikipedia.org/w/api.php?action=query&amp;list=geosearch&amp;format=json&amp;gscoord=10.87</td>
+              <td>78.68&amp;gsradius=10000&amp;gslimit=5)</td>
             </tr>
           </tbody>
         </table>
@@ -69,31 +70,31 @@
   </li>
   <li>Open Search API’s
     <ul>
-      <li>https://www.mediawiki.org/wiki/API:Search</li>
+      <li><a href="https://www.mediawiki.org/wiki/API:Search">https://www.mediawiki.org/wiki/API:Search</a></li>
     </ul>
   </li>
 </ul>
 
-<h2 id="search-engine---configuration">Search Engine - Configuration</h2>
+<h1 id="search-engine---configuration">Search Engine - Configuration</h1>
 <p><img width="910" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/693e4bfd-c40d-476d-aacb-c4b1afcc4135" /></p>
 
-<h2 id="search-options">Search Options</h2>
+<h1 id="search-options">Search Options</h1>
 <p><img width="809" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/224853cf-6e16-40ed-b695-5c85de4eb7a1" /></p>
 
-<h2 id="reference-links">Reference links</h2>
+<h1 id="reference-links">Reference links</h1>
 <p>### Custom Google Search</p>
 <ul>
-  <li>https://developers.google.com/custom-search/v1/overview</li>
-  <li>https://programmablesearchengine.google.com/controlpanel/all
+  <li><a href="https://developers.google.com/custom-search/v1/overview">https://developers.google.com/custom-search/v1/overview</a></li>
+  <li><a href="https://programmablesearchengine.google.com/controlpanel/all">https://programmablesearchengine.google.com/controlpanel/all</a>
   ### Maps</li>
-  <li>https://openlayers.org/</li>
-  <li>https://openlayers.org/en/latest/examples/</li>
-  <li>https://wiki.openstreetmap.org/wiki/Main_Page</li>
+  <li><a href="https://openlayers.org/">https://openlayers.org/</a></li>
+  <li><a href="https://openlayers.org/en/latest/examples/">https://openlayers.org/en/latest/examples/</a></li>
+  <li><a href="https://wiki.openstreetmap.org/wiki/Main_Page">https://wiki.openstreetmap.org/wiki/Main_Page</a></li>
 </ul>
 
 <h1 id="source-code">Source Code</h1>
 <ul>
-  <li>https://github.com/vinapp/voice-based-customsearch</li>
+  <li><a href="https://github.com/vinapp/voice-based-customsearch">https://github.com/vinapp/voice-based-customsearch</a></li>
 </ul>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[Voice Based Custom Search]]></summary></entry><entry><title type="html">A Study &amp;amp; POC - TypesScripts based Transpiler for Indian scripts</title><link href="https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-scripts/" rel="alternate" type="text/html" title="A Study &amp;amp; POC - TypesScripts based Transpiler for Indian scripts" /><published>2022-10-31T00:00:00+00:00</published><updated>2022-10-31T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-scripts</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-scripts/"><![CDATA[<h1 id="abstractidea">Abstract/Idea</h1>
 <p><a href="https://github.com/vinapp/indic-transpiler-demo">Here</a> I have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi’s/Scripts (indic - Hindi/Kan/Telugu etc..) into JavaScript (English version) of keywords. In this way we can extend the JavaScript for any scripts (other than English) of our choice and use the Transpiler to generate final JavaScript for interpretting.</p>
 
