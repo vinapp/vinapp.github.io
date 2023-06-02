@@ -9,6 +9,7 @@ related_posts: false
 toc:
   beginning: true
 ---
+
 # Abstract/Idea
 [Here](https://github.com/vinapp/indic-transpiler-demo) I have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi's/Scripts (indic - Hindi/Kan/Telugu etc..) into JavaScript (English version) of keywords. In this way we can extend the JavaScript for any scripts (other than English) of our choice and use the Transpiler to generate final JavaScript for interpretting.
 
@@ -30,12 +31,12 @@ toc:
 - Vite (bootstrap-frontend)
 
 # References
-https://vedic-lang.github.io/
-https://omlang.com/
-https://github.com/microsoft/TypeScript
-https://github.com/basarat/demo-compiler
-https://astexplorer.net/
-https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09
+- https://vedic-lang.github.io/
+- https://omlang.com/
+- https://github.com/microsoft/TypeScript
+- https://github.com/basarat/demo-compiler
+- https://astexplorer.net/
+- https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09
 
 # Source Code
   - https://github.com/vinapp/indic-transpiler-demo
