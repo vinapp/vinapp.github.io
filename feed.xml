@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T02:28:37+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T02:29:12+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Voice Based Custom Search</title><link href="https://vinapp.github.io/blog/2023/voice-based-customsearch/" rel="alternate" type="text/html" title="Voice Based Custom Search" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2023/voice-based-customsearch</id><content type="html" xml:base="https://vinapp.github.io/blog/2023/voice-based-customsearch/"><![CDATA[<h1 id="abstract">Abstract</h1>
 <p>A Hybrid Ionic mobile app (<a href="https://github.com/vinapp/voice-based-customsearch">voice-based-customsearch</a>) that accepts Indic voice-based commands to search the Indic (domain) scoped data. The Indic domain data includes data such as music/tourism/theertha-stala/spiritual/yoga/etc. Here the voice to text conversion happens via JS WebSpeech API’s. Also, the search engine includes custom Google search engine, Wikipedia search engine or similar one (one or more of these). The Google custom Search helps in creating our own search engine for a choosen topic collected from a group of websites of our choosing.</p>
 
@@ -96,11 +96,11 @@
   <li>https://github.com/vinapp/voice-based-customsearch</li>
 </ul>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[Voice Based Custom Search]]></summary></entry><entry><title type="html">Multi class image generation using Stable Diffusion</title><link href="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/" rel="alternate" type="text/html" title="Multi class image generation using Stable Diffusion" /><published>2022-10-01T10:00:00+00:00</published><updated>2022-10-01T10:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/"><![CDATA[<h2 id="voice-based-multi-class-image-generation-using-stable-diffusion">Voice based Multi class image generation using Stable Diffusion</h2>
 
-<h3 id="1-problem-statement">(1) Problem Statement:</h3>
+<h3 id="problem-statement">Problem Statement:</h3>
 
 <p>We have seen the generative models like Diffusion Model for some time. With the release of Stable Diffusion’s (released recently as early as August 2022) the code and the model weights have been released publicly allowing users to have more control over the topic picture and then controlling the diffusion model using text-based inputs, we can do a transfer learning for a subject &amp; an identifier with just few images. Also, we see that there are only few articles on these and especially only covering a single class transfer learning. So, taking advantage of this we see an option of training (our own set of images) with different classes (with our own identifiers) and clubbing multiple classes. So with this we can issue a single sentence/text which covers all the classes/identifiers and generate images based our custom image set. Also, extending text-to-image to voice-to-text-to-image helps.</p>
 
-<h3 id="2-task">(2) Task:</h3>
+<h3 id="task">Task:</h3>
 
 <ul>
   <li>For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier’s</li>
@@ -108,7 +108,7 @@
   <li>Find the group of classes/subject that we want to train and test the same with different text’s (sentences). Testing could be manual or based on the labelled data.</li>
 </ul>
 
-<h3 id="3-why-is-it-interesting-">(3) Why is it interesting ?</h3>
+<h3 id="why-is-it-interesting-">Why is it interesting ?</h3>
 
 <p>Interesting because imagination becomes real in the image. One of the powerful use case would be in slide preparation or storyboard creation wherein we can generate images on our own set of images (grouped into different class) that are trained via transfer learning. This would save time and also have multiple imaginative image generation options. Also, here we have some control over the image generation since its operating on our own set of images.</p>
 
@@ -128,14 +128,14 @@
 
 <p>Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful… For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it’s very difficult to get the images of our own choice and that too for say 100’s of articles. So in that case this is very useful and we don’t have bother out <a href="https://huggingface.co/CompVis/stable-diffusion">licensing</a> issues as well unless it’s not misused.</p>
 
-<h3 id="4-data">(4) Data</h3>
+<h3 id="data">Data</h3>
 
 <ul>
   <li>To start with we require only few sets of images for transfer learning</li>
   <li>Verifying the result is a bit challenging but we could leverage the labelled data.</li>
 </ul>
 
-<h3 id="5-methods-to-experiment">(5) Methods to experiment</h3>
+<h3 id="methods-to-experiment">Methods to experiment</h3>
 
 <ul>
   <li>For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</li>
@@ -163,7 +163,7 @@
     </div>
 </div>
 
-<h3 id="6-evaluate-your-results">(6) Evaluate your results</h3>
+<h3 id="evaluate-your-results">Evaluate your results</h3>
 
 <p><strong>Aspects</strong></p>
 
@@ -174,22 +174,22 @@
 
 <p>Planning to use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
 
-<p><strong>(7) Quantitative Results:</strong></p>
+<p>** Quantitative Results:**</p>
 
 <p><strong>NA/?</strong></p>
 
-<p><strong>(8) Quantitatively Analysis:</strong></p>
+<p>** Quantitatively Analysis:**</p>
 
 <p><strong>NA/?</strong></p>
 
-<p><strong>(9) What is the hypothesis regarding the results compared to baselines</strong></p>
+<p>** What is the hypothesis regarding the results compared to baselines**</p>
 
 <ul>
   <li>It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.</li>
   <li>Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.</li>
 </ul>
 
-<p><strong>(10) References:</strong></p>
+<p>** References:**</p>
 
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/Stable\_Diffusion">Stable Diffusion</a></li>
@@ -198,7 +198,7 @@
   <li><a href="https://huggingface.co/CompVis/stable-diffusion">Stable Diffusion Model</a></li>
 </ul>
 
-<p><strong>(11) Related Works Article:</strong></p>
+<p>** Related Works Article:**</p>
 
 <ul>
   <li><a href="https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/">Train Stable Diffusion Model</a></li>

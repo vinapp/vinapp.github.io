@@ -131,12 +131,12 @@
       <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#voice-based-multi-class-image-generation-using-stable-diffusion">Voice based Multi class image generation using Stable Diffusion</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#1-problem-statement">(1) Problem Statement:</a></li>
-<li class="toc-entry toc-h3"><a href="#2-task">(2) Task:</a></li>
-<li class="toc-entry toc-h3"><a href="#3-why-is-it-interesting-">(3) Why is it interesting ?</a></li>
-<li class="toc-entry toc-h3"><a href="#4-data">(4) Data</a></li>
-<li class="toc-entry toc-h3"><a href="#5-methods-to-experiment">(5) Methods to experiment</a></li>
-<li class="toc-entry toc-h3"><a href="#6-evaluate-your-results">(6) Evaluate your results</a></li>
+<li class="toc-entry toc-h3"><a href="#problem-statement">Problem Statement:</a></li>
+<li class="toc-entry toc-h3"><a href="#task">Task:</a></li>
+<li class="toc-entry toc-h3"><a href="#why-is-it-interesting-">Why is it interesting ?</a></li>
+<li class="toc-entry toc-h3"><a href="#data">Data</a></li>
+<li class="toc-entry toc-h3"><a href="#methods-to-experiment">Methods to experiment</a></li>
+<li class="toc-entry toc-h3"><a href="#evaluate-your-results">Evaluate your results</a></li>
 </ul>
 </li>
 </ul>
@@ -146,11 +146,11 @@
     <div id="markdown-content">
       <h2 id="voice-based-multi-class-image-generation-using-stable-diffusion">Voice based Multi class image generation using Stable Diffusion</h2>
 
-<h3 id="1-problem-statement">(1) Problem Statement:</h3>
+<h3 id="problem-statement">Problem Statement:</h3>
 
 <p>We have seen the generative models like Diffusion Model for some time. With the release of Stable Diffusion’s (released recently as early as August 2022) the code and the model weights have been released publicly allowing users to have more control over the topic picture and then controlling the diffusion model using text-based inputs, we can do a transfer learning for a subject &amp; an identifier with just few images. Also, we see that there are only few articles on these and especially only covering a single class transfer learning. So, taking advantage of this we see an option of training (our own set of images) with different classes (with our own identifiers) and clubbing multiple classes. So with this we can issue a single sentence/text which covers all the classes/identifiers and generate images based our custom image set. Also, extending text-to-image to voice-to-text-to-image helps.</p>
 
-<h3 id="2-task">(2) Task:</h3>
+<h3 id="task">Task:</h3>
 
 <ul>
   <li>For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier’s</li>
@@ -158,7 +158,7 @@
   <li>Find the group of classes/subject that we want to train and test the same with different text’s (sentences). Testing could be manual or based on the labelled data.</li>
 </ul>
 
-<h3 id="3-why-is-it-interesting-">(3) Why is it interesting ?</h3>
+<h3 id="why-is-it-interesting-">Why is it interesting ?</h3>
 
 <p>Interesting because imagination becomes real in the image. One of the powerful use case would be in slide preparation or storyboard creation wherein we can generate images on our own set of images (grouped into different class) that are trained via transfer learning. This would save time and also have multiple imaginative image generation options. Also, here we have some control over the image generation since its operating on our own set of images.</p>
 
@@ -178,14 +178,14 @@
 
 <p>Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful… For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it’s very difficult to get the images of our own choice and that too for say 100’s of articles. So in that case this is very useful and we don’t have bother out <a href="https://huggingface.co/CompVis/stable-diffusion">licensing</a> issues as well unless it’s not misused.</p>
 
-<h3 id="4-data">(4) Data</h3>
+<h3 id="data">Data</h3>
 
 <ul>
   <li>To start with we require only few sets of images for transfer learning</li>
   <li>Verifying the result is a bit challenging but we could leverage the labelled data.</li>
 </ul>
 
-<h3 id="5-methods-to-experiment">(5) Methods to experiment</h3>
+<h3 id="methods-to-experiment">Methods to experiment</h3>
 
 <ul>
   <li>For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</li>
@@ -213,7 +213,7 @@
     </div>
 </div>
 
-<h3 id="6-evaluate-your-results">(6) Evaluate your results</h3>
+<h3 id="evaluate-your-results">Evaluate your results</h3>
 
 <p><strong>Aspects</strong></p>
 
@@ -224,22 +224,22 @@
 
 <p>Planning to use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
 
-<p><strong>(7) Quantitative Results:</strong></p>
+<p>** Quantitative Results:**</p>
 
 <p><strong>NA/?</strong></p>
 
-<p><strong>(8) Quantitatively Analysis:</strong></p>
+<p>** Quantitatively Analysis:**</p>
 
 <p><strong>NA/?</strong></p>
 
-<p><strong>(9) What is the hypothesis regarding the results compared to baselines</strong></p>
+<p>** What is the hypothesis regarding the results compared to baselines**</p>
 
 <ul>
   <li>It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.</li>
   <li>Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.</li>
 </ul>
 
-<p><strong>(10) References:</strong></p>
+<p>** References:**</p>
 
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/Stable\_Diffusion">Stable Diffusion</a></li>
@@ -248,7 +248,7 @@
   <li><a href="https://huggingface.co/CompVis/stable-diffusion">Stable Diffusion Model</a></li>
 </ul>
 
-<p><strong>(11) Related Works Article:</strong></p>
+<p>** Related Works Article:**</p>
 
 <ul>
   <li><a href="https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/">Train Stable Diffusion Model</a></li>
