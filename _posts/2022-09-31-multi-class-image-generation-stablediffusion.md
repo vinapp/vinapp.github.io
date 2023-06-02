@@ -10,19 +10,17 @@ toc:
   beginning: true
 ---
 
-## Voice based Multi class image generation using Stable Diffusion
-
-### Problem Statement
+# Problem Statement
 
 We have seen the generative models like Diffusion Model for some time. With the release of Stable Diffusion's (released recently as early as August 2022) the code and the model weights have been released publicly allowing users to have more control over the topic picture and then controlling the diffusion model using text-based inputs, we can do a transfer learning for a subject & an identifier with just few images. Also, we see that there are only few articles on these and especially only covering a single class transfer learning. So, taking advantage of this we see an option of training (our own set of images) with different classes (with our own identifiers) and clubbing multiple classes. So with this we can issue a single sentence/text which covers all the classes/identifiers and generate images based our custom image set. Also, extending text-to-image to voice-to-text-to-image helps.
 
-### Task
+# Task
 
   - For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier's
   - Add a support to speech to text option on top of text to image option
   - Find the group of classes/subject that we want to train and test the same with different text's (sentences). Testing could be manual or based on the labelled data.
 
-### Why is it interesting ?
+# Why is it interesting ?
 
 Interesting because imagination becomes real in the image. One of the powerful use case would be in slide preparation or storyboard creation wherein we can generate images on our own set of images (grouped into different class) that are trained via transfer learning. This would save time and also have multiple imaginative image generation options. Also, here we have some control over the image generation since its operating on our own set of images.
 
@@ -40,12 +38,12 @@ This one especially touches all/most of ML aspects like deep learning, un-superv
 
 Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful... For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it's very difficult to get the images of our own choice and that too for say 100's of articles. So in that case this is very useful and we don't have bother out [licensing](https://huggingface.co/CompVis/stable-diffusion) issues as well unless it's not misused.
 
-### Data
+# Data
 
   - To start with we require only few sets of images for transfer learning
   - Verifying the result is a bit challenging but we could leverage the labelled data.
 
-### Methods to experiment
+# Methods to experiment
 
   - For transfer learning we an use different sets of custom images for different classes. In my case I have use images of Temple and few images for background. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
 
@@ -56,7 +54,7 @@ Example images generated from stable diffusion model:
     </div>
 </div>
 
-### Jupyter Notebook - Tryout out
+# Jupyter Notebook - Tryout out
 
 Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images & for the inference.
 
@@ -77,7 +75,7 @@ Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generatio
     <img width="783" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/7860471d-1e35-445a-b08b-b8d8200ed143">
     <hr/>
 
-### Result Evaluation
+# Result Evaluation
 
   - Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.
   - Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.
@@ -85,7 +83,7 @@ Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generatio
 We can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.
 
 
-### References
+# References
 
 - [Stable Diffusion](https://en.wikipedia.org/wiki/Stable\_Diffusion)
 - [Dream booth Diffusion](https://arxiv.org/pdf/2208.12242.pdf)
