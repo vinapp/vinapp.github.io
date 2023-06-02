@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T11:13:56+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T11:15:44+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Voice Based Custom Search</title><link href="https://vinapp.github.io/blog/2023/voice-based-customsearch/" rel="alternate" type="text/html" title="Voice Based Custom Search" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2023/voice-based-customsearch</id><content type="html" xml:base="https://vinapp.github.io/blog/2023/voice-based-customsearch/"><![CDATA[<h1 id="abstract">Abstract</h1>
 <p>A Hybrid Ionic mobile app (<a href="https://github.com/vinapp/voice-based-customsearch">voice-based-customsearch</a>) that accepts Indic voice-based commands to search the Indic (domain) scoped data. The Indic domain data includes data such as music/tourism/theertha-stala/spiritual/yoga/etc. Here the voice to text conversion happens via JS WebSpeech API’s. Also, the search engine includes custom Google search engine, Wikipedia search engine or similar one (one or more of these). The Google custom Search helps in creating our own search engine for a choosen topic collected from a group of websites of our choosing.</p>
 
@@ -98,6 +98,7 @@
 <p><a href="https://github.com/vinapp/indic-transpiler-demo">Here</a> I have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi’s/Scripts (indic - Hindi/Kan/Telugu etc..) into JavaScript (English version) of keywords. In this way we can extend the JavaScript for any scripts (other than English) of our choice and use the Transpiler to generate final JavaScript for interpretting.</p>
 
 <h1 id="why-typescript-">Why TypeScript ?</h1>
+
 <ul>
   <li>Strong static typing</li>
   <li>Object oriented programming</li>
@@ -111,6 +112,7 @@
 <p><img width="645" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/dd94ebc1-83da-413b-ab1a-03488cfd0e16" /></p>
 
 <h1 id="technologylanguagesmodulestools">Technology/Languages/modules/tools</h1>
+
 <ul>
   <li>Node</li>
   <li>TypeScript</li>
