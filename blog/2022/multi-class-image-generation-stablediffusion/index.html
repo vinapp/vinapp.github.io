@@ -136,7 +136,9 @@
 <li class="toc-entry toc-h3"><a href="#why-is-it-interesting-">Why is it interesting ?</a></li>
 <li class="toc-entry toc-h3"><a href="#data">Data</a></li>
 <li class="toc-entry toc-h3"><a href="#methods-to-experiment">Methods to experiment</a></li>
+<li class="toc-entry toc-h3"><a href="#jupyter-notebook---tryout-out">Jupyter Notebook - Tryout out</a></li>
 <li class="toc-entry toc-h3"><a href="#evaluate-your-results">Evaluate your results</a></li>
+<li class="toc-entry toc-h3"><a href="#references">References</a></li>
 </ul>
 </li>
 </ul>
@@ -188,10 +190,35 @@
 <h3 id="methods-to-experiment">Methods to experiment</h3>
 
 <ul>
-  <li>For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</li>
+  <li>For transfer learning we an use different sets of custom images for different classes. In my case I have use images of Temple and few images for background. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</li>
 </ul>
 
 <p>Example images generated from stable diffusion model:</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/multi-class-image-generation-stable-diffusion-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/multi-class-image-generation-stable-diffusion-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/multi-class-image-generation-stable-diffusion-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="jupyter-notebook---tryout-out">Jupyter Notebook - Tryout out</h3>
+
+<p>Here is the Jupyter Notebook you can use for training your own set of images</p>
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
@@ -222,37 +249,31 @@
   <li>Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.</li>
 </ul>
 
-<p>Planning to use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
+<p>Can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
 
-<p>** Quantitative Results:**</p>
-
-<p><strong>NA/?</strong></p>
-
-<p>** Quantitatively Analysis:**</p>
-
-<p><strong>NA/?</strong></p>
-
-<p>** What is the hypothesis regarding the results compared to baselines**</p>
+<p><strong>What is the hypothesis regarding the results compared to baselines</strong></p>
 
 <ul>
   <li>It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.</li>
   <li>Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.</li>
 </ul>
 
-<p>** References:**</p>
+<h3 id="references">References</h3>
 
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/Stable\_Diffusion">Stable Diffusion</a></li>
   <li><a href="https://arxiv.org/pdf/2208.12242.pdf">Dream booth Diffusion</a></li>
-  <li><a href="[https://en.wikipedia.org/wiki/Diffusion\_model](https://en.wikipedia.org/wiki/Diffusion_model)">Diffusion Model</a></li>
-  <li><a href="https://huggingface.co/CompVis/stable-diffusion">Stable Diffusion Model</a></li>
-</ul>
+  <li><a href="https://en.wikipedia.org/wiki/Diffusion_model">Diffusion Model</a></li>
+  <li>
+    <p><a href="https://huggingface.co/CompVis/stable-diffusion">Stable Diffusion Model</a></p>
 
-<p>** Related Works Article:**</p>
+    <p><strong>Related Work/Articles:</strong></p>
 
-<ul>
-  <li><a href="https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/">Train Stable Diffusion Model</a></li>
-  <li><a href="https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/">Fine Tune Stable Diffusion Model</a></li>
+    <ul>
+      <li><a href="https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/">Train Stable Diffusion Model</a></li>
+      <li><a href="https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/">Fine Tune Stable Diffusion Model</a></li>
+    </ul>
+  </li>
 </ul>
 
     </div>
