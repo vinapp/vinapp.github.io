@@ -47,9 +47,19 @@ Example Usecase: Think of having a plugin (to powerpoint/google slides) that can
 
 ### Methods to experiment
 
-  - For transfer learning we use different sets of custom images for different classes. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
+  - For transfer learning we an use different sets of custom images for different classes. In my case I have use images of Temple and few images for background. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.
 
 Example images generated from stable diffusion model:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+### Jupyter Notebook - Tryout out
+
+Here is the Jupyter Notebook you can use for training your own set of images
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -63,29 +73,21 @@ Example images generated from stable diffusion model:
   - Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.
   - Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.
 
-Planning to use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.
+Can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.
 
-** Quantitative Results:**
-
-**NA/?**
-
-** Quantitatively Analysis:**
-
-**NA/?**
-
-** What is the hypothesis regarding the results compared to baselines**
+**What is the hypothesis regarding the results compared to baselines**
 
   - It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.
   - Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.
 
-** References:**
+### References
 
 - [Stable Diffusion](https://en.wikipedia.org/wiki/Stable\_Diffusion)
 - [Dream booth Diffusion](https://arxiv.org/pdf/2208.12242.pdf)
-- [Diffusion Model]([https://en.wikipedia.org/wiki/Diffusion\_model](https://en.wikipedia.org/wiki/Diffusion_model))
+- [Diffusion Model](https://en.wikipedia.org/wiki/Diffusion_model)
 - [Stable Diffusion Model](https://huggingface.co/CompVis/stable-diffusion)
 
-** Related Works Article:**
+  **Related Work/Articles:**
 
-- [Train Stable Diffusion Model](https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/)
-- [Fine Tune Stable Diffusion Model](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/)
+  - [Train Stable Diffusion Model](https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/)
+  - [Fine Tune Stable Diffusion Model](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/)
