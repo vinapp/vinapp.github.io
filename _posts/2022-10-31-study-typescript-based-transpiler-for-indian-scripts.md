@@ -14,7 +14,6 @@ toc:
 [Here](https://github.com/vinapp/indic-transpiler-demo) I have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi's/Scripts (indic - Hindi/Kan/Telugu etc..) into JavaScript (English version) of keywords. In this way we can extend the JavaScript for any scripts (other than English) of our choice and use the Transpiler to generate final JavaScript for interpretting.
 
 # Why TypeScript ?
-
   - Strong static typing
   - Object oriented programming
   - Better code maintenance
@@ -26,7 +25,6 @@ toc:
 <img width="645" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/dd94ebc1-83da-413b-ab1a-03488cfd0e16">
 
 # Technology/Languages/modules/tools
-
   - Node
   - TypeScript
   - Jest (JavaScript Testing Framework)
