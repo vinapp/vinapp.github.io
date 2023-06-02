@@ -1,8 +1,8 @@
 ---
 layout: post
-title: A Study & POC - Transpiler for Indian Languages using TypesSripts
+title: A Study & POC - Transpiler for Indian scripts using TypesSripts
 date: 2022-10-31
-description: A Study & POC - Transpiler for Indian Languages using TypesSripts
+description: A Study & POC - Transpiler for Indian scripts using TypesSripts
 tags: ai ml
 giscus_comments: false
 related_posts: false
@@ -10,7 +10,7 @@ toc:
   beginning: true
 ---
 # Abstract/Idea
-[Here](https://github.com/vinapp/indic-transpiler-demo) have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi's/Scripts (indic - Hindi/Kan/Telugu etc..) into JS English version. In this way we can extend the Traspiler for any scripts.
+[Here](https://github.com/vinapp/indic-transpiler-demo) I have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi's/Scripts (indic - Hindi/Kan/Telugu etc..) into JS English version. In this way we can extend the Traspiler for any scripts.
 
 ## Why TypeScript ?
 - Strong static typing
@@ -30,6 +30,7 @@ toc:
 - Vite (bootstrap-frontend)
 
 ## References
+
 - https://vedic-lang.github.io/
 - https://omlang.com/
 - https://github.com/microsoft/TypeScript
@@ -38,6 +39,7 @@ toc:
 - https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09
 
 # Source Code
+
   - https://github.com/vinapp/indic-transpiler-demo
   - https://github.com/Umesh-k26/illustrate-indic-js-transpiler - Using JiSON Parser
 
