@@ -175,42 +175,22 @@
 <p>Example Usecase: Think of having a plugin (to powerpoint/google slides) that can integrate custom generative model to generate our own choice of images and this would be very powerful… For eg: Every week if we need to publish some articles (say related to temples) and I need some creative images and it’s very difficult to get the images of our own choice and that too for say 100’s of articles. So in that case this is very useful and we don’t have bother out <a href="https://huggingface.co/CompVis/stable-diffusion">licensing</a> issues as well unless it’s not misused.</p>
 
 <h1 id="data">Data</h1>
-
 <ul>
   <li>To start with we require only few sets of images for transfer learning</li>
   <li>Verifying the result is a bit challenging but we could leverage the labelled data.</li>
 </ul>
 
 <h1 id="methods-to-experiment">Methods to experiment</h1>
-
 <ul>
-  <li>For transfer learning we an use different sets of custom images for different classes. In my case I have use images of Temple and few images for background. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</li>
+  <li>
+    <p>For transfer learning we an use different sets of custom images for different classes. In my case I have use images of Temple and few images for background. The new class we train will be on top of the previous classes. At the end we give the instruction in the form of speech or text (that covers all the classes and identifiers) to generate the synthesized images.</p>
+
+    <p>Below is the example images that is generated from stable diffusion model:
+ <img width="944" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/00fff27c-2174-4b30-a474-7eecfe9c9b89" /></p>
+  </li>
 </ul>
 
-<p>Example images generated from stable diffusion model:</p>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/multi-class-image-generation-stable-diffusion-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/multi-class-image-generation-stable-diffusion-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/multi-class-image-generation-stable-diffusion-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-
 <h1 id="jupyter-notebook---tryout-out">Jupyter Notebook - Tryout out</h1>
-
 <p>Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images &amp; for the inference.</p>
 
 <p><strong>Steps</strong></p>
@@ -248,7 +228,6 @@
 <p>We can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
 
 <h1 id="references">References</h1>
-
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/Stable\_Diffusion">Stable Diffusion</a></li>
   <li><a href="https://arxiv.org/pdf/2208.12242.pdf">Dream booth Diffusion</a></li>
@@ -257,7 +236,6 @@
     <p><a href="https://huggingface.co/CompVis/stable-diffusion">Stable Diffusion Model</a></p>
 
     <p><strong>Related Work/Articles</strong></p>
-
     <ul>
       <li><a href="https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/">Train Stable Diffusion Model</a></li>
       <li><a href="https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/">Fine Tune Stable Diffusion Model</a></li>
