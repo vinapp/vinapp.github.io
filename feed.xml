@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T11:30:49+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T11:32:42+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Voice Based Custom Search</title><link href="https://vinapp.github.io/blog/2023/voice-based-customsearch/" rel="alternate" type="text/html" title="Voice Based Custom Search" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2023/voice-based-customsearch</id><content type="html" xml:base="https://vinapp.github.io/blog/2023/voice-based-customsearch/"><![CDATA[<h1 id="abstract">Abstract</h1>
 <p>A Hybrid Ionic mobile app (<a href="https://github.com/vinapp/voice-based-customsearch">voice-based-customsearch</a>) that accepts Indic voice-based commands to search the Indic (domain) scoped data. The Indic domain data includes data such as music/tourism/theertha-stala/spiritual/yoga/etc. Here the voice to text conversion happens via JS WebSpeech API’s. Also, the search engine includes custom Google search engine, Wikipedia search engine or similar one (one or more of these). The Google custom Search helps in creating our own search engine for a choosen topic collected from a group of websites of our choosing.</p>
 
@@ -125,18 +125,18 @@
 
 <h1 id="references">References</h1>
 <ul>
-  <li>https://vedic-lang.github.io/</li>
-  <li>https://omlang.com/</li>
-  <li>https://github.com/microsoft/TypeScript</li>
-  <li>https://github.com/basarat/demo-compiler</li>
-  <li>https://astexplorer.net/</li>
-  <li>https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09</li>
+  <li><a href="https://vedic-lang.github.io/">https://vedic-lang.github.io/</a></li>
+  <li><a href="https://omlang.com/">https://omlang.com/</a></li>
+  <li><a href="https://github.com/microsoft/TypeScript">https://github.com/microsoft/TypeScript</a></li>
+  <li><a href="https://github.com/basarat/demo-compiler">https://github.com/basarat/demo-compiler</a></li>
+  <li><a href="https://astexplorer.net/">https://astexplorer.net/</a></li>
+  <li><a href="https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09">https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09</a></li>
 </ul>
 
 <h1 id="source-code">Source Code</h1>
 <ul>
-  <li>https://github.com/vinapp/indic-transpiler-demo</li>
-  <li>https://github.com/Umesh-k26/illustrate-indic-js-transpiler - Using JiSON Parser</li>
+  <li><a href="https://github.com/vinapp/indic-transpiler-demo">https://github.com/vinapp/indic-transpiler-demo</a></li>
+  <li><a href="https://github.com/Umesh-k26/illustrate-indic-js-transpiler">https://github.com/Umesh-k26/illustrate-indic-js-transpiler</a> - Using JiSON Parser</li>
 </ul>
 
 <p><img width="945" alt="indic-transpiler" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/3c77b1c0-d3ed-4571-ba51-b482f62942c5" /></p>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[A Study & POC - TypesScripts based Transpiler for Indian scripts]]></summary></entry><entry><title type="html">Multi class image generation using Stable Diffusion</title><link href="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/" rel="alternate" type="text/html" title="Multi class image generation using Stable Diffusion" /><published>2022-10-01T10:00:00+00:00</published><updated>2022-10-01T10:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/"><![CDATA[<h1 id="problem-statement">Problem Statement</h1>
