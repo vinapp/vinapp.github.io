@@ -12,11 +12,11 @@ toc:
 
 ## Voice based Multi class image generation using Stable Diffusion
 
-### Problem Statement:
+### Problem Statement
 
 We have seen the generative models like Diffusion Model for some time. With the release of Stable Diffusion's (released recently as early as August 2022) the code and the model weights have been released publicly allowing users to have more control over the topic picture and then controlling the diffusion model using text-based inputs, we can do a transfer learning for a subject & an identifier with just few images. Also, we see that there are only few articles on these and especially only covering a single class transfer learning. So, taking advantage of this we see an option of training (our own set of images) with different classes (with our own identifiers) and clubbing multiple classes. So with this we can issue a single sentence/text which covers all the classes/identifiers and generate images based our custom image set. Also, extending text-to-image to voice-to-text-to-image helps.
 
-### Task:
+### Task
 
   - For our own set of images train with the pre-trained model with multiple classes/subjects and the identifier's
   - Add a support to speech to text option on top of text to image option
@@ -87,7 +87,7 @@ Can use the labelled trained images to match against the generated images and fo
 - [Diffusion Model](https://en.wikipedia.org/wiki/Diffusion_model)
 - [Stable Diffusion Model](https://huggingface.co/CompVis/stable-diffusion)
 
-  **Related Work/Articles:**
+  **Related Work/Articles**
 
   - [Train Stable Diffusion Model](https://techpp.com/2022/10/10/how-to-train-stable-diffusion-ai-dreambooth/)
   - [Fine Tune Stable Diffusion Model](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/)
