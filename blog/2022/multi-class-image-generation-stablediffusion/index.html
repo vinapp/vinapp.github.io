@@ -137,7 +137,7 @@
 <li class="toc-entry toc-h3"><a href="#data">Data</a></li>
 <li class="toc-entry toc-h3"><a href="#methods-to-experiment">Methods to experiment</a></li>
 <li class="toc-entry toc-h3"><a href="#jupyter-notebook---tryout-out">Jupyter Notebook - Tryout out</a></li>
-<li class="toc-entry toc-h3"><a href="#evaluate-your-results">Evaluate your results</a></li>
+<li class="toc-entry toc-h3"><a href="#result-evaluation">Result Evaluation</a></li>
 <li class="toc-entry toc-h3"><a href="#references">References</a></li>
 </ul>
 </li>
@@ -217,46 +217,41 @@
 
 <h3 id="jupyter-notebook---tryout-out">Jupyter Notebook - Tryout out</h3>
 
-<p>Here is the Jupyter Notebook you can use for training your own set of images</p>
+<p>Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images &amp; for the inference.</p>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<p><strong>Steps</strong></p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb-1400.webp" />
-    
+<ul>
+  <li>Train &amp; Save Model
+    <hr />
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <p><img width="944" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/21e11ac2-5363-42c9-97d8-744422234fe0" /></p>
+    <hr />
 
-  </picture>
+    <p><img width="935" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/a8e77ec7-bbc9-42c8-930c-14047492ea7e" /></p>
+    <hr />
 
-</figure>
+    <p><img width="930" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/4ba43e09-03df-4e4c-974f-636e4b016a47" /></p>
+  </li>
+  <li>Image Generation
+    <hr />
 
-    </div>
-</div>
+    <p><img width="940" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/1f88f34e-23e2-4c39-84a1-9a4482a0f6ca" /></p>
+    <hr />
 
-<h3 id="evaluate-your-results">Evaluate your results</h3>
+    <p><img width="783" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/7860471d-1e35-445a-b08b-b8d8200ed143" /></p>
+    <hr />
+  </li>
+</ul>
 
-<p><strong>Aspects</strong></p>
+<h3 id="result-evaluation">Result Evaluation</h3>
 
 <ul>
   <li>Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.</li>
   <li>Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.</li>
 </ul>
 
-<p>Can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
-
-<p><strong>What is the hypothesis regarding the results compared to baselines</strong></p>
-
-<ul>
-  <li>It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.</li>
-  <li>Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.</li>
-</ul>
+<p>We can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.</p>
 
 <h3 id="references">References</h3>
 
