@@ -33,15 +33,15 @@ toc:
   - Vite (bootstrap-frontend)
 
 # References
-  - https://vedic-lang.github.io/
-  - https://omlang.com/
-  - https://github.com/microsoft/TypeScript
-  - https://github.com/basarat/demo-compiler
-  - https://astexplorer.net/
-  - https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09
+  - [https://vedic-lang.github.io/](https://vedic-lang.github.io/)
+  - [https://omlang.com/](https://omlang.com/)
+  - [https://github.com/microsoft/TypeScript](https://github.com/microsoft/TypeScript)
+  - [https://github.com/basarat/demo-compiler](https://github.com/basarat/demo-compiler)
+  - [https://astexplorer.net/](https://astexplorer.net/)
+  - [https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09](https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09)
 
 # Source Code
-  - https://github.com/vinapp/indic-transpiler-demo
-  - https://github.com/Umesh-k26/illustrate-indic-js-transpiler - Using JiSON Parser
+  - [https://github.com/vinapp/indic-transpiler-demo](https://github.com/vinapp/indic-transpiler-demo)
+  - [https://github.com/Umesh-k26/illustrate-indic-js-transpiler](https://github.com/Umesh-k26/illustrate-indic-js-transpiler) - Using JiSON Parser
 
   <img width="945" alt="indic-transpiler" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/3c77b1c0-d3ed-4571-ba51-b482f62942c5">
