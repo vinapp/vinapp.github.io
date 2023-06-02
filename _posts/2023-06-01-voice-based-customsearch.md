@@ -52,7 +52,7 @@ A Hybrid Ionic mobile app ([voice-based-customsearch](https://github.com/vinapp/
   - [https://www.mediawiki.org/wiki/API:Search](https://www.mediawiki.org/wiki/API:Search)
   - [https://kn.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=ಶ್ರೀರಂಗ&sroffset=10](https://kn.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=ಶ್ರೀರಂಗ&sroffset=10)
   - [https://en.wikipedia.org/w/api.php?action=query&prop=coordinates&format=json&titles=Tirupati](https://en.wikipedia.org/w/api.php?action=query&prop=coordinates&format=json&titles=Tirupati)
-  - [https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87|78.68&gsradius=10000&gslimit=5](https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87|78.68&gsradius=10000&gslimit=5)
+  - [https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87%7C78.68&gsradius=10000&gslimit=5](https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87|78.68&gsradius=10000&gslimit=5)
 
 - Open Search API’s
   - [https://www.mediawiki.org/wiki/API:Search](https://www.mediawiki.org/wiki/API:Search)
@@ -64,10 +64,11 @@ A Hybrid Ionic mobile app ([voice-based-customsearch](https://github.com/vinapp/
 <img width="809" alt="image" src="https://github.com/vinapp/voice-based-customsearch/assets/8567548/224853cf-6e16-40ed-b695-5c85de4eb7a1">
 
 # Reference links
-  ### Custom Google Search
+  **Custom Google Search**
   - [https://developers.google.com/custom-search/v1/overview](https://developers.google.com/custom-search/v1/overview)
   - [https://programmablesearchengine.google.com/controlpanel/all](https://programmablesearchengine.google.com/controlpanel/all)
-  ### Maps
+
+  **Maps**
   - [https://openlayers.org/](https://openlayers.org/)
   - [https://openlayers.org/en/latest/examples/](https://openlayers.org/en/latest/examples/)
   - [https://wiki.openstreetmap.org/wiki/Main_Page](https://wiki.openstreetmap.org/wiki/Main_Page)
