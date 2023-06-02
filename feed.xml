@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T09:24:26+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://vinapp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://vinapp.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-02T09:38:21+00:00</updated><id>https://vinapp.github.io/feed.xml</id><title type="html">Vinod Appajanna</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Voice Based Custom Search</title><link href="https://vinapp.github.io/blog/2023/voice-based-customsearch/" rel="alternate" type="text/html" title="Voice Based Custom Search" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2023/voice-based-customsearch</id><content type="html" xml:base="https://vinapp.github.io/blog/2023/voice-based-customsearch/"><![CDATA[<h1 id="abstract">Abstract</h1>
 <p>A Hybrid Ionic mobile app (<a href="https://github.com/vinapp/voice-based-customsearch">voice-based-customsearch</a>) that accepts Indic voice-based commands to search the Indic (domain) scoped data. The Indic domain data includes data such as music/tourism/theertha-stala/spiritual/yoga/etc. Here the voice to text conversion happens via JS WebSpeech API’s. Also, the search engine includes custom Google search engine, Wikipedia search engine or similar one (one or more of these). The Google custom Search helps in creating our own search engine for a choosen topic collected from a group of websites of our choosing.</p>
 
@@ -94,8 +94,8 @@
 <h1 id="source-code">Source Code</h1>
 <ul>
   <li>https://github.com/vinapp/voice-based-customsearch</li>
-</ul>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[Voice Based Custom Search]]></summary></entry><entry><title type="html">A Study &amp;amp; POC - Transpiler for Indian Languages using TypesSripts</title><link href="https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-languages/" rel="alternate" type="text/html" title="A Study &amp;amp; POC - Transpiler for Indian Languages using TypesSripts" /><published>2022-10-31T00:00:00+00:00</published><updated>2022-10-31T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-languages</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-languages/"><![CDATA[<h1 id="abstractidea">Abstract/Idea</h1>
-<p><a href="https://github.com/vinapp/indic-transpiler-demo">Here</a> have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi’s/Scripts (indic - Hindi/Kan/Telugu etc..) into JS English version. In this way we can extend the Traspiler for any scripts.</p>
+</ul>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[Voice Based Custom Search]]></summary></entry><entry><title type="html">A Study &amp;amp; POC - Transpiler for Indian scripts using TypesSripts</title><link href="https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-scripts/" rel="alternate" type="text/html" title="A Study &amp;amp; POC - Transpiler for Indian scripts using TypesSripts" /><published>2022-10-31T00:00:00+00:00</published><updated>2022-10-31T00:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-scripts</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/study-typescript-based-transpiler-for-indian-scripts/"><![CDATA[<h1 id="abstractidea">Abstract/Idea</h1>
+<p><a href="https://github.com/vinapp/indic-transpiler-demo">Here</a> I have tried to explore and demonstrate on how we can use TypeScripts for transpiling custom keywords chosen from our own lipi’s/Scripts (indic - Hindi/Kan/Telugu etc..) into JS English version. In this way we can extend the Traspiler for any scripts.</p>
 
 <h2 id="why-typescript-">Why TypeScript ?</h2>
 <ul>
@@ -119,6 +119,7 @@
 </ul>
 
 <h2 id="references">References</h2>
+
 <ul>
   <li>https://vedic-lang.github.io/</li>
   <li>https://omlang.com/</li>
@@ -129,12 +130,13 @@
 </ul>
 
 <h1 id="source-code">Source Code</h1>
+
 <ul>
   <li>https://github.com/vinapp/indic-transpiler-demo</li>
   <li>https://github.com/Umesh-k26/illustrate-indic-js-transpiler - Using JiSON Parser</li>
 </ul>
 
-<p><img width="945" alt="indic-transpiler" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/3c77b1c0-d3ed-4571-ba51-b482f62942c5" /></p>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[A Study & POC - Transpiler for Indian Languages using TypesSripts]]></summary></entry><entry><title type="html">Multi class image generation using Stable Diffusion</title><link href="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/" rel="alternate" type="text/html" title="Multi class image generation using Stable Diffusion" /><published>2022-10-01T10:00:00+00:00</published><updated>2022-10-01T10:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/"><![CDATA[<h2 id="voice-based-multi-class-image-generation-using-stable-diffusion">Voice based Multi class image generation using Stable Diffusion</h2>
+<p><img width="945" alt="indic-transpiler" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/3c77b1c0-d3ed-4571-ba51-b482f62942c5" /></p>]]></content><author><name></name></author><category term="ai" /><category term="ml" /><summary type="html"><![CDATA[A Study & POC - Transpiler for Indian scripts using TypesSripts]]></summary></entry><entry><title type="html">Multi class image generation using Stable Diffusion</title><link href="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/" rel="alternate" type="text/html" title="Multi class image generation using Stable Diffusion" /><published>2022-10-01T10:00:00+00:00</published><updated>2022-10-01T10:00:00+00:00</updated><id>https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion</id><content type="html" xml:base="https://vinapp.github.io/blog/2022/multi-class-image-generation-stablediffusion/"><![CDATA[<h2 id="voice-based-multi-class-image-generation-using-stable-diffusion">Voice based Multi class image generation using Stable Diffusion</h2>
 
 <h3 id="problem-statement">Problem Statement</h3>
 
