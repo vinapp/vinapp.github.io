@@ -62,7 +62,7 @@ Here is the Jupyter Notebook you can use for training your own set of images
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/multi-class-image-generation-stable-diffusion.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
