@@ -40,5 +40,5 @@ toc:
 
 # Source Code
   - https://github.com/vinapp/indic-transpiler-demo
-  - https://github.com/Umesh-k26/illustrate-indic-js-transpiler
+  - https://github.com/Umesh-k26/illustrate-indic-js-transpiler - Using JiSON Parser
  <img width="945" alt="indic-transpiler" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/3c77b1c0-d3ed-4571-ba51-b482f62942c5">
