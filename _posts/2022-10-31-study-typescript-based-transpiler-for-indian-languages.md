@@ -9,6 +9,7 @@ related_posts: false
 toc:
   beginning: true
 ---
+# Abstract/Idea
 
 ## Why TypeScript ?
 - Strong static typing
@@ -19,6 +20,7 @@ toc:
 - Large Plain Javascripts are difficult to handle
 
 ## Flow diagram
+<img width="645" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/dd94ebc1-83da-413b-ab1a-03488cfd0e16">
 
 ## Technology/Languages/modules/tools
 - Node
@@ -36,4 +38,7 @@ toc:
 
 - https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js?s=09
 
-
+# Source Code
+  - https://github.com/vinapp/indic-transpiler-demo
+  - https://github.com/Umesh-k26/illustrate-indic-js-transpiler
+ <img width="945" alt="indic-transpiler" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/3c77b1c0-d3ed-4571-ba51-b482f62942c5">
