@@ -49,7 +49,7 @@ Example Usecase: Think of having a plugin (to powerpoint/google slides) that can
      <img width="944" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/00fff27c-2174-4b30-a474-7eecfe9c9b89">
 
 # Jupyter Notebook - Tryout out
-Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images & for the inference.
+Download this Jupyter Notebook <a href="https://vinapp.github.io/assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images & for the inference.
 
 **Steps**
 
