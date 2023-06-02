@@ -58,27 +58,32 @@ Example images generated from stable diffusion model:
 
 ### Jupyter Notebook - Tryout out
 
-Here is the Jupyter Notebook you can use for training your own set of images
+Download this Jupyter Notebook <a href="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb"> multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb</a> for training your own set of images & for the inference.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/ipynb/multi_class_image_generation_using_dreambooth_stable_diffusion.ipynb" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+**Steps**
 
-### Evaluate your results
+  - Train & Save Model
+    <hr/>
+    <img width="944" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/21e11ac2-5363-42c9-97d8-744422234fe0">
+    <hr/>
+    <img width="935" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/a8e77ec7-bbc9-42c8-930c-14047492ea7e">
+    <hr/>
+    <img width="930" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/4ba43e09-03df-4e4c-974f-636e4b016a47">
 
-**Aspects**
+  - Image Generation
+    <hr/>
+    <img width="940" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/1f88f34e-23e2-4c39-84a1-9a4482a0f6ca">
+    <hr/>
+    <img width="783" alt="image" src="https://github.com/vinapp/vinapp.github.io/assets/8567548/7860471d-1e35-445a-b08b-b8d8200ed143">
+    <hr/>
+
+### Result Evaluation
 
   - Fidelity: the quality of the generated samples. Measures how realistic the images are. You can think of it as how different each fake sample is from its nearest real sample.
   - Diversity: the variety of the generated samples. Measures how well the generated images cover the whole diversity or variety of the real distribution.
 
-Can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.
+We can use the labelled trained images to match against the generated images and for this we need more images to train the labelled data.
 
-**What is the hypothesis regarding the results compared to baselines**
-
-  - It can be created into a product (powerpoint, word, google slides, browser plugins etc) for practical use.
-  - Choosing the classes, identifiers sequences will surely help in synthesized images of our own set of images.
 
 ### References
 
