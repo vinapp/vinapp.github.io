@@ -52,7 +52,7 @@ A Hybrid Ionic mobile app ([voice-based-customsearch](https://github.com/vinapp/
   - [https://www.mediawiki.org/wiki/API:Search](https://www.mediawiki.org/wiki/API:Search)
   - [https://kn.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=ಶ್ರೀರಂಗ&sroffset=10](https://kn.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=ಶ್ರೀರಂಗ&sroffset=10)
   - [https://en.wikipedia.org/w/api.php?action=query&prop=coordinates&format=json&titles=Tirupati](https://en.wikipedia.org/w/api.php?action=query&prop=coordinates&format=json&titles=Tirupati)
-  - [https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87%7C78.68&gsradius=10000&gslimit=5](https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87|78.68&gsradius=10000&gslimit=5)
+  - [https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87%7C78.68&gsradius=10000&gslimit=5](https://en.wikipedia.org/w/api.php?action=query&list=geosearch&format=json&gscoord=10.87%7C78.68&gsradius=10000&gslimit=5)
 
 - Open Search API’s
   - [https://www.mediawiki.org/wiki/API:Search](https://www.mediawiki.org/wiki/API:Search)
