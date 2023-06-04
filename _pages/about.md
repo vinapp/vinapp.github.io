@@ -2,8 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.E Computer Science and Engineering <br/>
-          M.S Software Systems, BITS Pilani
+subtitle: B.E Computer Science and Engineering, Bangalore University <br/>
+          M.S Software Systems, BITS Pilani <br/>
+          Certified Yoga Instructor from Svyasa Yoga University.
 
 profile:
   align: right
