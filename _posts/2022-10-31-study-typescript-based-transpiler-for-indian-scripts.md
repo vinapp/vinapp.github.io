@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Study & POC - TypesScript based Transpiler for Indian scripts
+title: A Study & a POC - TypeScript based Transpiler for Indian scripts
 date: 2022-10-31
 description: A Study & POC - TypesScript based Transpiler for Indian scripts
 tags: ai ml
